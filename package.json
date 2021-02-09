@@ -1,0 +1,19 @@
+{
+  "name": "nodeWebhooks",
+  "version": "1.0.0",
+  "description": "NodeJS service to check for updates to a site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sai Rithvik Ayithapu",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-telegram-bot-api": "^0.51.0"
+  }
+}
