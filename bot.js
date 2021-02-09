@@ -48,7 +48,7 @@ const app = express();
 // Middlewares
 app.use(bodyParser.json());
 
-app.post("/", (req, res) => {
+app.post("/" + bot.token, (req, res) => {
   bot.processUpdate(req.body);
   res.sendStatus(200); // Responding back to the webhook 
 })
