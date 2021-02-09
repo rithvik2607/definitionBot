@@ -4,7 +4,8 @@
   "description": "NodeJS service to check for updates to a site",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
   },
   "keywords": [],
   "author": "Sai Rithvik Ayithapu",
